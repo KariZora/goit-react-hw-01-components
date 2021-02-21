@@ -1,0 +1,37 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  width: 400px;
+  height: 114px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 3px 7px -3px #a89d55;
+}
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.status {
+  width: 23px;
+  height: 23px;
+  margin-right: 16px;
+  background-color: rgb(51, 153, 51);
+  border-radius: 50%;
+}
+
+.offLine {
+  background-color: rgb(231, 83, 83);
+}
+
+.avatar {
+  width: 98px;
+  height: 98px;
+  background-color: ghostwhite;
+  border-radius: 10px;
+  margin-right: 18px;
+}
+
+.name {
+  font-family: sans-serif;
+  font-size: 24px;
+}

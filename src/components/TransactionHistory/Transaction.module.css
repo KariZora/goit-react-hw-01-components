@@ -1,0 +1,34 @@
+.transaction-history {
+  table-layout: fixed;
+  margin: 0 auto;
+  width: 870px;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  box-shadow: 0px 3px 7px -3px #a89d55;
+  margin-bottom: 30px;
+}
+
+th {
+  width: 33.33%;
+  padding-bottom: 18px;
+  background-color: #00bcd5;
+  color: #fff;
+}
+
+th,
+td {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border: 1px solid #e0e5e8;
+}
+
+td {
+  text-align: center;
+  color: #4f5053;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ecf1f4;
+}
+
+/* #E0E5E8 */
